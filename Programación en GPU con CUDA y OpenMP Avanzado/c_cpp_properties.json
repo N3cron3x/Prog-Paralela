@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "CUDA (Windows)",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/include",
+                "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/include",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt"
+            ],
+            "defines": [
+                "__CUDACC__",
+                "_WIN64"
+            ],
+            "compilerPath": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/bin/nvcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

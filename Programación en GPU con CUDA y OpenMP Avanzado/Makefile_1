@@ -1,0 +1,18 @@
+CC      = nvcc
+CFLAGS  = -O2 -Xcompiler -fopenmp -arch=sm_75
+LDFLAGS = -lgomp -lm
+TARGET  = vector_add
+SRC     = vector_add.cu
+
+.PHONY: all clean run
+
+all: $(TARGET)
+
+$(TARGET): $(SRC)
+	$(CC) $(CFLAGS) -o $@ $< $(LDFLAGS)
+
+run: all
+	./$(TARGET)
+
+clean:
+	rm -f $(TARGET)
