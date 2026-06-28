@@ -1,0 +1,15 @@
+Data mining is the process of discovering patterns and knowledge from large amounts of data.
+Machine learning algorithms are commonly used in data mining to classify cluster and regress datasets.
+Supervised learning requires labeled training data to build predictive models for classification tasks.
+Unsupervised learning finds hidden structure in unlabeled data through clustering and dimensionality reduction.
+The k means algorithm partitions data into k clusters by minimizing within cluster sum of squared distances.
+Decision trees partition the feature space recursively using information gain or gini impurity as split criteria.
+Random forests build an ensemble of decision trees trained on random subsets of features and samples.
+Cross validation estimates model generalization by partitioning data into training and validation folds.
+Feature engineering transforms raw data into meaningful representations that improve model performance.
+Dimensionality reduction techniques like principal component analysis project high dimensional data to lower dimensions.
+Association rule mining discovers interesting relationships between variables in large transactional databases.
+The apriori algorithm finds frequent itemsets by pruning candidates that do not meet minimum support thresholds.
+Neural networks learn hierarchical representations through layers of interconnected weighted units.
+Gradient descent optimizes model parameters by iteratively adjusting weights in the direction of steepest loss reduction.
+Data preprocessing includes handling missing values outlier detection normalization and encoding categorical variables.

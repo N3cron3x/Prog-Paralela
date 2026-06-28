@@ -1,0 +1,15 @@
+Hadoop is an open source framework that allows distributed processing of large datasets across clusters of computers.
+The MapReduce programming model divides work into two phases: the map phase and the reduce phase.
+In the map phase each node processes data stored locally and generates intermediate key value pairs.
+During the shuffle and sort phase Hadoop transfers intermediate data across the network to group values by key.
+The reduce phase aggregates the grouped values to produce the final output stored in HDFS.
+Hadoop Distributed File System stores data in blocks replicated across multiple nodes for fault tolerance.
+The default block size in Hadoop three is one hundred twenty eight megabytes per block.
+Data locality is a key optimization in Hadoop because moving computation is cheaper than moving data.
+A combiner function can pre aggregate map output locally reducing the volume of data transferred during shuffle.
+The number of reducers directly influences the degree of parallelism in the reduce phase.
+MapReduce jobs are fault tolerant because failed tasks are automatically restarted on other nodes.
+YARN manages cluster resources and schedules MapReduce jobs across the Hadoop cluster.
+The ResourceManager allocates containers to ApplicationMasters which coordinate individual jobs.
+NodeManagers run on each worker node and manage local resources for task execution.
+Hadoop clusters can scale horizontally from a few nodes to thousands of commodity servers.

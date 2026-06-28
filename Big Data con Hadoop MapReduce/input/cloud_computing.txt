@@ -1,0 +1,15 @@
+Cloud computing delivers on demand computing resources including servers storage databases networking and software over the internet.
+Infrastructure as a service provides virtualized computing resources such as virtual machines storage and networking on demand.
+Platform as a service offers a development and deployment environment in the cloud for building scalable applications.
+Software as a service delivers software applications over the internet on a subscription basis without local installation.
+Containerization packages applications and dependencies into portable units that run consistently across different environments.
+Docker is the most widely adopted container runtime enabling developers to build ship and run applications in containers.
+Kubernetes orchestrates containerized workloads across clusters automating deployment scaling and management of applications.
+Microservices architecture decomposes applications into small independent services that communicate through well defined interfaces.
+Serverless computing abstracts infrastructure management allowing developers to focus on writing functions triggered by events.
+Auto scaling dynamically adjusts compute capacity based on current demand to maintain performance and minimize cost.
+Content delivery networks cache static assets at edge locations geographically close to users reducing latency.
+Object storage systems like Amazon S3 provide highly durable and scalable storage for unstructured data at low cost.
+Virtual private clouds isolate cloud resources within a logically separated network segment with configurable security rules.
+Multi region deployments replicate data and services across geographic regions to improve resilience and reduce latency.
+The shared responsibility model divides security duties between the cloud provider and the customer using cloud services.

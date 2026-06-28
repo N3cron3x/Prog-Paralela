@@ -1,0 +1,15 @@
+Parallel programming enables simultaneous execution of computations across multiple processors or cores.
+Shared memory parallelism uses threads that access a common address space and requires synchronization mechanisms.
+OpenMP provides compiler directives for shared memory parallel programming in C C++ and Fortran programs.
+Message passing parallelism distributes computation across nodes that communicate by explicitly sending and receiving messages.
+The MPI standard defines a portable interface for message passing across distributed memory systems.
+CUDA enables general purpose parallel computing on NVIDIA graphics processing units using thousands of cores.
+A GPU kernel is a function executed in parallel by many threads organized into blocks and grids.
+Thread divergence occurs when threads within a warp take different execution paths reducing GPU efficiency.
+Memory coalescing ensures consecutive threads access consecutive memory locations for optimal bandwidth utilization.
+Amdahls law states that the speedup from parallelism is limited by the sequential fraction of a program.
+Load balancing distributes work evenly across parallel workers to minimize idle time and maximize throughput.
+Race conditions occur when multiple threads access shared data concurrently and at least one performs a write.
+Mutexes semaphores and atomic operations are synchronization primitives used to protect critical sections.
+The producer consumer problem illustrates coordination between threads that generate and consume data from a buffer.
+Embarrassingly parallel problems have no dependencies between subproblems and scale perfectly with processor count.
