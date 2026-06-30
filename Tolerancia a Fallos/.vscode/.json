@@ -7,7 +7,7 @@
         "C:/Program Files (x86)/Microsoft SDKs/MPI/Include"
       ],
       "defines": [],
-      "compilerPath": "C:/Program Files/Microsoft MPI/Bin/mpiexec.exe",
+      "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe",
       "cStandard": "c99",
       "intelliSenseMode": "windows-msvc-x64"
     }
