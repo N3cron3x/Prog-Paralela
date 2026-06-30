@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/Program Files (x86)/Microsoft SDKs/MPI/Include"
+      ],
+      "defines": [],
+      "compilerPath": "C:/Program Files/Microsoft MPI/Bin/mpiexec.exe",
+      "cStandard": "c99",
+      "intelliSenseMode": "windows-msvc-x64"
+    }
+  ],
+  "version": 4
+}
