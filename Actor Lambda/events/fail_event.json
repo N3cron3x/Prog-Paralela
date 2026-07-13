@@ -1,0 +1,3 @@
+{
+  "body": "{\"taskId\": \"tarea-003\", \"type\": \"SUM\", \"operands\": [\"1\", \"2\"], \"simulateFailure\": true}"
+}

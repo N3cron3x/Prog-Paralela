@@ -1,0 +1,3 @@
+{
+  "body": "{\"taskId\": \"tarea-002\", \"type\": \"CONCAT\", \"operands\": [\"Hola\", \" \", \"mundo\"], \"simulateFailure\": false}"
+}
